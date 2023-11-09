@@ -264,7 +264,7 @@ a {
 }
 
 .content-3 .service-header h3 {
-	font-size: 2.6rem;
+	font-size: 2.3rem;
 	color: var(--text-color-one);
 }
 
@@ -276,13 +276,14 @@ a {
 
 .content-3 .services {
 	display: grid;
-	grid-template-columns: repeat(3, auto);
+	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 4rem 1.7rem;
 	margin-top: 6rem;
+	margin-bottom: 8rem;
 }
 
 .content-3 .services .services-types {
-	width: 100%;
+	max-width: 100%;
 }
 
 .content-3 .services .services-types img {
@@ -304,3 +305,57 @@ a {
 /* company services style end */
 
 /* SECTION-2 STYLE END */
+
+/* SECTION-3 STYLE START */
+.section-3 .content-4 {
+	margin-top: 2rem;
+}
+
+.content-4 .work-on {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	/* grid-template-columns: auto auto; */
+}
+
+.content-4 .work-on .sub-content {
+	width: 70%;
+	margin: 0 auto;
+	padding: 8rem 0;
+}
+
+.content-4 .work-on .ensurity {
+	background-image: linear-gradient(rgba(35, 43, 56, 0.9), rgba(35, 43, 56, 0.9)), url("img/building.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content-4 .work-on .ensurity .sub-content h3 {
+	font-size: 2.3rem;
+	color: var(--btn);
+}
+
+.content-4 .work-on .ensurity .sub-content h1 {
+	font-size: 4.5rem;
+	margin-top: 1.2rem;
+	color: var(--white);
+}
+
+.content-4 .work-on .ensurity .sub-content p {
+	font-size: 1.8rem;
+	margin-top: 1.6rem;
+	line-height: 2.6rem;
+	color: var(--white);
+}
+
+.content-4 .work-on .ensurity .sub-content a {
+	display: inline-block;
+	margin-top: 4rem;
+}
+
+.content-4 .work-on .practices {
+	background-image: linear-gradient(rgba(219, 183, 63, 0.6), rgba(209, 227, 75, 0.8)), url("img/lab.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* SECTION-3 STYLE END */
