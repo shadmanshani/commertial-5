@@ -1,0 +1,148 @@
+/* MEDIA FOR 375PX SCREEN */
+@media(max-width: 375px) {
+	h1 {
+		font-size: 4rem;
+
+	}
+
+	h2 {
+		font-size: 2.2rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	p {
+		font-size: 0.7rem;
+	}
+
+	a {
+		font-size: 1.8rem;
+		color: var(--white);
+	}
+
+	.header {
+		background-position: center;
+		background-size: cover;
+		padding: 0 2rem;
+	}
+
+	.header .container .content-1 {
+		padding-bottom: 3rem;
+	}
+
+	.content-1 .header-part .top-part .icons {
+		display: none;
+	}
+
+	.content-1 .header-part .top-part .logo img {
+		width: 12rem;
+		height: 4.3rem;
+	}
+
+	.content-1 .header-part .down-part .menu {
+		display: none;
+	}
+
+	.down-part .top-btn {
+		display: none;
+	}
+
+	.down-part .button {
+		position: relative;
+	}
+
+	.down-part .button .sidebar {
+		display: inline-block;
+		position: absolute;
+		top: -9.5rem;
+		right: -31rem;
+	}
+
+	.content-1 .header-content {
+		padding-top: 2.5rem;
+	}
+
+	.content-1 .header-content .down-button {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 2rem;
+	}
+
+	.content-2 {
+		transform: translateY(0px);
+	}
+
+	.section-1 {
+		margin-top: -1px;
+	}
+
+	.section-1 .content-2 {
+		display: grid;
+		grid-template-columns: auto;
+	}
+
+	.experience {
+		padding: 0rem 2.2rem;
+		background-color: var(--btn);
+	}
+
+	.experience h1 {
+		font-size: 3.5rem;
+		margin-top: 1.5rem;
+	}
+
+	.experience h3 {
+		font-size: 2rem;
+		margin-top: 3rem;
+	}
+
+	.experience a {
+		display: none;
+	}
+
+	.achivement {
+		display: grid;
+		grid-template-columns: repeat(1, auto);
+		background-color: var(--white);
+	}
+
+	.achivement .box {
+		padding: 2rem;
+		box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+	}
+
+	.achivement .box h1 {
+		font-size: 3.5rem;
+	}
+
+	.achivement .box p {
+		font-size: 1.5rem;
+		margin-top: 1rem;
+	}
+
+	.content-3 {
+		padding: 0 2rem;
+	}
+
+	.content-3 .service-header h3 {
+		font-size: 2rem;
+		color: var(--text-color-one);
+		margin-top: 5rem;
+
+	}
+
+	.content-3 .service-header h1 {
+		font-size: 3.5rem;
+		margin-top: 1.2rem;
+		color: var(--text-color-one);
+	}
+
+	.content-3 .services {
+		display: grid;
+		grid-template-columns: repeat(1, auto);
+		grid-gap: 4rem 1.7rem;
+		margin-top: 6rem;
+	}
+}
