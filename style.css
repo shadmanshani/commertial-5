@@ -385,3 +385,20 @@ a {
 }
 
 /* SECTION-3 STYLE END */
+
+/* SECTION-4 STYLE START */
+
+.section-4 .content-5 {
+	border: 1px solid red;
+}
+
+.section-4 .content-5 .connectivity>* {
+	flex-basis: 50%;
+}
+
+.section-4 .content-5 .connectivity {
+	display: flex;
+	justify-content: center;
+}
+
+/* SECTION-4 STYLE END */
