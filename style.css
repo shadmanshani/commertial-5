@@ -320,7 +320,7 @@ a {
 .content-4 .work-on .sub-content {
 	width: 70%;
 	margin: 0 auto;
-	padding: 8rem 0;
+	padding: 6rem 0;
 }
 
 .content-4 .work-on .ensurity {
@@ -356,6 +356,32 @@ a {
 	background-image: linear-gradient(rgba(219, 183, 63, 0.6), rgba(209, 227, 75, 0.8)), url("img/lab.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.content-4 .work-on .practices .sub-con-2 {
+	padding: 7rem 0;
+}
+
+.content-4 .work-on .practices .sub-content h2 {
+	font-size: 3rem;
+	color: #000000;
+}
+
+.content-4 .work-on .practices .sub-content p {
+	font-size: 1.9rem;
+	margin-top: 1.2rem;
+	line-height: 2.6rem;
+	color: #000000;
+}
+
+.content-4 .work-on .practices .sub-content ul {
+	margin-top: 2rem;
+	margin-left: 2rem;
+}
+
+.content-4 .work-on .practices .sub-content ul li {
+	font-size: 2.5rem;
+	margin-top: 1.5rem;
 }
 
 /* SECTION-3 STYLE END */
